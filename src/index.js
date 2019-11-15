@@ -1,4 +1,8 @@
-class App {
-    
+import React from 'react';
+import { render } from 'react-dom';
+
+const App = () => {
+    return <div>miprimer render</div>
 }
-export default App;
+
+render(<App />, document.getElementById('app'));
