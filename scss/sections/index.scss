@@ -1,0 +1,14 @@
+.componente {
+  width: 300px;
+  height: 400px;
+  background: red;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial";
+  text-transform: uppercase;
+  &.active {
+    background: blue;
+    color: red;
+  }
+}

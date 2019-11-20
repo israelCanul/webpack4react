@@ -10,8 +10,12 @@ class App extends Component {
     return (
       <div className="Tempcontainer">
         <Header />
-        <div className="main"></div>
-        <footer></footer>
+        <div className="main">
+          <div className="componente active">
+            este es mi componente jejej XD
+          </div>
+        </div>
+        <footer>este es mi footer</footer>
       </div>
     );
   }
