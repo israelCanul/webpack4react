@@ -1,2 +1,2 @@
 # webpack4react
-Boilerplate for react project working with webpack 4
+Boilerplate for a React project working with webpack 4
